@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nischal Gautam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="nixal.css" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Animated Shapes -->
+    <div class="shapes-container">
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-triangle"></div>
+        <div class="shape shape-square"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF5E00;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00B2FF;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="20,2 38,14 38,26 20,38 2,26 2,14" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="20,8 32,16 32,24 20,32 8,24 8,16" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="logo-text">The Nischal</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Thyself</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="text-rotator">
+                <div class="text-set active">
+                    <h1 class="glitch-text" data-text="FUTURE IS NOW">Hey! Fellas this is Nischal Gautam.</h1>
+                    <p class="subtitle">Friendly, helpful, and passionate about technology.</p>
+                </div>
+                <div class="text-set">
+                    <h1 class="glitch-text" data-text="BEYOND LIMITS">Bold. Brave. Free</h1>
+                    <p class="subtitle">Where tech enthusiasm meets community service</p>
+                </div>
+                <div class="text-set">
+                    <h1 class="glitch-text" data-text="ELECTRIC DREAMS">ELECTRIC DREAMS</h1>
+                    <p class="subtitle">Helping others while exploring the future of technology</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-container">
+            <a href="#features" class="cta-button cta-primary">Get Started</a>
+            <a href="#about" class="cta-button cta-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section with Social Links -->
+    <section class="features" id="features">
+        <h2 class="section-title">Connect With Me</h2>
+        <div class="features-container">
+            <div class="feature-tabs">
+                <div class="tab-item active" data-tab="performance">
+                    <span class="tab-icon">⚡</span>
+                    <span>Performance</span>
+                </div>
+                <div class="tab-item" data-tab="instagram">
+                    <span class="tab-icon"><i class="fab fa-instagram"></i></span>
+                    <span>Instagram</span>
+                </div>
+                <div class="tab-item" data-tab="facebook">
+                    <span class="tab-icon"><i class="fab fa-facebook"></i></span>
+                    <span>Facebook</span>
+                </div>
+                <div class="tab-item" data-tab="github">
+                    <span class="tab-icon"><i class="fab fa-github"></i></span>
+                    <span>GitHub</span>
+                </div>
+                <div class="tab-item" data-tab="integration">
+                    <span class="tab-icon">🔧</span>
+                    <span>Integration</span>
+                </div>
+            </div>
+            <div class="feature-content">
+                <div class="content-panel active" id="performance">
+                    <h3>Lightning Fast Performance</h3>
+                    <p>Experience unprecedented speed with our quantum-powered infrastructure. Built on cutting-edge technology that delivers results at the speed of thought.</p>
+                </div>
+                <div class="content-panel" id="instagram">
+                    <h3>Instagram</h3>
+                    <p>Follow me on Instagram:  
+                        <a href="https://www.instagram.com/neeschal.g/" target="_blank">@neeschal.g</a>
+                    </p>
+                </div>
+                <div class="content-panel" id="facebook">
+                    <h3>Facebook</h3>
+                    <p>Connect with me on Facebook:  
+                        <a href="https://www.facebook.com/nischall.g" target="_blank">facebook.com/nischall.g</a>
+                    </p>
+                </div>
+                <div class="content-panel" id="github">
+                    <h3>GitHub</h3>
+                    <p>Check out my GitHub projects:  
+                        <a href="https://github.com/nischalgautam658-stack" target="_blank">github.com/nischalgautam658-stack</a>
+                    </p>
+                </div>
+                <div class="content-panel" id="integration">
+                    <h3>Seamless Integration</h3>
+                    <p>Connect with thousands of apps and services through our universal API. Built to work with your existing tools and workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Nischal Gautam</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Friendly Tech Enthusiast</h2>
+                <p>Nischal is an active member of the Interact Club, passionate about helping people and making a positive impact in his community. He is friendly, approachable, and deeply enthusiastic about technology, always eager to explore new digital possibilities and learn innovative solutions.</p>
+            </div>
+            <div class="about-visual">
+                <img src="images/9bdc1e13-0e9e-44d2-a0f8-7f5e0c310ac0.jpg" alt="Nischal Photo 1" class="about-image" style="max-width:300px; height:auto;">
+            </div>
+        </div>
+        <div class="about-content" style="margin-top: 40px;">
+            <div class="about-visual">
+                <img src="images/426c5006-6af0-43d8-8fa9-9a0390590890.jpg" alt="Nischal Photo 2" class="about-image" style="max-width:300px; height:auto;">
+            </div>
+            <div class="about-text">
+                <h2>Passionate and Dedicated</h2>
+                <p>Always ready to lend a hand, Nischal combines his enthusiasm for technology with a genuine desire to serve others. His dedication to learning and helping his peers makes him a respected and inspiring figure in any team or community he joins.</p>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© 2025 Nischal Gautam. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="templatemo-electric-scripts.js"></script>
+</body>
+</html>
